@@ -1,0 +1,5 @@
+#sfdx / salesforce
+.sfdx
+node_modules
+.vscode
+*.log
