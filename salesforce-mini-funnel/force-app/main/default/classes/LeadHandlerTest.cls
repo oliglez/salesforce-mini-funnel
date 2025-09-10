@@ -9,7 +9,7 @@ private class LeadHandlerTest {
             FirstName = 'John',
             LastName = 'Doe',
             Company = 'Test Company',
-            Funnel_Source__c = 'Test Source'
+            Funnel_Source__c = 'Test Source123'
         );
         insert testLead;
 
