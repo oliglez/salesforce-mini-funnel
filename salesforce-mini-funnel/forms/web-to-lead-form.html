@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+<head><META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"><title>Mini Funnel Demo</title></head>
+<body>
+
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DgK00000Au1yF" method="POST">
+
+<input type=hidden name="oid" value="00DgK00000Au1yF">
+<input type=hidden name="retURL" value="https://oliglez.github.io/salesforce-mini-funnel/forms/web-to-lead-form.html">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="oliglez9510@gmail.com">   -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<input type="hidden" name="Funnel_Source__c" value="facebook_ad_demo">
+<input type="hidden" name="campaign" value="Mini_campaign_Id">
+
+<input type="submit" name="Submit demo Lead">
+
+</form>
+<p>Note:Replace <code>oid</code>and <code>campaign</code>values with your Salesforce org and campaign ids</p>
+</body>
+</html>

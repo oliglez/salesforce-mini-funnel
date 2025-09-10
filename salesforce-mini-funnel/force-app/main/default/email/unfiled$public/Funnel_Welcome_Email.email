@@ -1,0 +1,7 @@
+<html><body>
+      <p>Hi {!Lead.FirstName},</p>
+      <p>Thanks for your interest — here’s a quick intro to our product and a 10% offer: <strong>WELCOME10</strong></p>
+      <p><a href="https://example.com">Learn more</a></p>
+      <p>Best,<br/>Demo Sales Team</p>
+    </body></html>
+  ]
