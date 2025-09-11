@@ -12,6 +12,12 @@
             <name>emailAddresses</name>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>CurrentUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>useEmailTemplate</name>
             <value>
                 <stringValue>True</stringValue>
@@ -26,14 +32,11 @@
         <inputParameters>
             <name>recipientId</name>
             <value>
-                <elementReference>$Record.Email</elementReference>
+                <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
             <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
         <offset>0</offset>
